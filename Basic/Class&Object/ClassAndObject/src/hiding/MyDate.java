@@ -12,10 +12,7 @@ public class MyDate {
         this.day = day;
     }
 
-    public void setMonth(int month)
-    {
-        this.month = month;
-    }
+    public void setMonth(int month) { this.month = month; }
 
     public void setYear(int year)
     {
@@ -37,10 +34,6 @@ public class MyDate {
         return year;
     }
 
-    public void showInfo()
-    {
-        System.out.println(year+"년"+month+"월"+day+"일");
-    }
-
+    public void showInfo()    { System.out.println(year+"년"+month+"월"+day+"일"); }
 
 }
